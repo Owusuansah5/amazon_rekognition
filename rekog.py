@@ -51,7 +51,7 @@ def detect_labels(photo, bucket):
 
 def main():
     photo = 'amazonreckimages.jpg'
-    bucket = 'w5-go-bucket-terraform'
+    bucket = 'bucketname'
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
 
